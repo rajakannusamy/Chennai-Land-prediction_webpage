@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  hackthangroup58house:
+    image: hackthangroup58house
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5000:5000
